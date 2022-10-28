@@ -1,7 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   background-color: white;
-  background-image: url("images/header-illsutration-mobile@2x.png") ;
+  background-image: url("images/header-illsutration-mobile@2x.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -20,7 +26,52 @@ body {
 .navbar h2 {
   color: black;
   font-style: normal;
-  font-family: sans-serif, 'Inter';
+  font-family: sans-serif, "Inter";
   font-size: 20px;
   line-height: 28px;
+}
+
+/* main */
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  flex: 1;
+}
+p {
+  text-align: center;
+  margin: 24px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+h1 {
+  text-align: center;
+  color: #172b4d;
+  padding: 10px;
+  margin: 24px;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+.profession {
+  color:#36b37e;
+}
+
+.socilaLinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.socilaLinks li {
+margin: 13px;
 }
